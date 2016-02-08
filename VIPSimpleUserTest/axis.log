@@ -1,0 +1,2354 @@
+=======================================================
+= Elapsed: 1730 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2010-04-23T05:07:50.193Z</Timestamp>
+      <UTCTimestamp>1271999270</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 888 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSST22279668</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSST22279668</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.101Z</ExpirationDate>
+        <LastUpdate>2010-04-21T07:44:15.000Z</LastUpdate>
+        <Owner>false</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>5</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>5</Total>
+        </TokenState>
+        <GlobalFailureCount>0</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 904 milliseconds
+= In message: 
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<soapenv:Body>
+<SubmitTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+<PhoneNumber>16507934909</PhoneNumber>
+<TxnOTP>123456</TxnOTP>
+<Language>en-us</Language>
+<VoiceTemplateName>PaymentVerify</VoiceTemplateName>
+<NamedParam name="fraction">55</NamedParam>
+<NamedParam xsi:nil="true"/><NamedParam xsi:nil="true"/>
+</SubmitTxnVerification>
+</soapenv:Body>
+</soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SubmitTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>4E00</ReasonCode>
+        <StatusMessage>Malformed request</StatusMessage>
+        <ErrorDetail>Invalid XML: Element has xsi:nil attribute but is not nillable &lt;xml-fragment xsi:nil="true" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>Element has xsi:nil attribute but is not nillable &lt;xml-fragment xsi:nil="true" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/></ErrorDetail>
+      </Status>
+    </SubmitTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1169 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2010-04-23T05:11:39.431Z</Timestamp>
+      <UTCTimestamp>1271999499</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 749 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><SubmitTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><PhoneNumber>16507934909</PhoneNumber><TxnOTP>123456</TxnOTP><Language>en-us</Language><VoiceTemplateName>PaymentVerify</VoiceTemplateName><NamedParam name="amount">1234</NamedParam><NamedParam name="accountEndsWith">999</NamedParam><NamedParam name="fraction">55</NamedParam></SubmitTxnVerification></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SubmitTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>4E10</ReasonCode>
+        <StatusMessage>This URL does not support this operation.</StatusMessage>
+      </Status>
+    </SubmitTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1169 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2010-04-23T05:13:32.291Z</Timestamp>
+      <UTCTimestamp>1271999612</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 733 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><SubmitTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><PhoneNumber>16507934909</PhoneNumber><TxnOTP>123456</TxnOTP><Language>en-us</Language><VoiceTemplateName>PaymentVerify</VoiceTemplateName><NamedParam name="amount">1234</NamedParam><NamedParam name="accountEndsWith">999</NamedParam><NamedParam name="fraction">55</NamedParam></SubmitTxnVerification></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SubmitTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>4E03</ReasonCode>
+        <StatusMessage>Authorization failed.</StatusMessage>
+        <ErrorDetail>Account not authorized to perform requested operation</ErrorDetail>
+      </Status>
+    </SubmitTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 987 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2010-04-23T16:49:50.126Z</Timestamp>
+      <UTCTimestamp>1272041390</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 532 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><SubmitTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><PhoneNumber>16507934909</PhoneNumber><TxnOTP>123456</TxnOTP><Language>en-us</Language><VoiceTemplateName>PaymentVerify</VoiceTemplateName><NamedParam name="amount">1234</NamedParam><NamedParam name="accountEndsWith">999</NamedParam><NamedParam name="fraction">55</NamedParam></SubmitTxnVerification></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SubmitTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>4845</ReasonCode>
+        <StatusMessage>The request parameters you supplied contain an unexpected value or format.</StatusMessage>
+        <ErrorDetail>Invalid parameters passed for template PaymentVerify.The following parameter(s) are expected, but not provided: currency.</ErrorDetail>
+      </Status>
+    </SubmitTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 987 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2010-04-23T16:51:15.809Z</Timestamp>
+      <UTCTimestamp>1272041475</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 596 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<soapenv:Body>
+<SubmitTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+<PhoneNumber>16507934909</PhoneNumber>
+<TxnOTP>123456</TxnOTP>
+<Language>en-us</Language>
+<VoiceTemplateName>PaymentVerify</VoiceTemplateName>
+<NamedParam name="amount">1234</NamedParam>
+<NamedParam name="accountEndsWith">999</NamedParam>
+<NamedParam name="currency">55</NamedParam>
+<NamedParam>USD</NamedParam>
+</SubmitTxnVerification>
+</soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SubmitTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>4E00</ReasonCode>
+        <StatusMessage>Malformed request</StatusMessage>
+        <ErrorDetail>Invalid XML: Expected attribute: name in element NamedParam@http://www.verisign.com/2006/08/vipservice &lt;xml-fragment xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">USD&lt;/xml-fragment></ErrorDetail>
+      </Status>
+    </SubmitTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 986 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2010-04-23T16:54:29.827Z</Timestamp>
+      <UTCTimestamp>1272041669</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 2394 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><SubmitTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><PhoneNumber>16507934909</PhoneNumber><TxnOTP>123456</TxnOTP><Language>en-us</Language><VoiceTemplateName>PaymentVerify</VoiceTemplateName><NamedParam name="amount">1234</NamedParam><NamedParam name="accountEndsWith">999</NamedParam><NamedParam name="fraction">55</NamedParam><NamedParam name="currency">USD</NamedParam></SubmitTxnVerification></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SubmitTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TxnId>B9816B250FEE2B5D</TxnId>
+    </SubmitTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1001 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2010-04-23T16:57:35.241Z</Timestamp>
+      <UTCTimestamp>1272041855</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 2283 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><SubmitTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><PhoneNumber>16507934909</PhoneNumber><TxnOTP>123456</TxnOTP><Language>en-us</Language><VoiceTemplateName>PaymentVerify</VoiceTemplateName><NamedParam name="amount">1234</NamedParam><NamedParam name="accountEndsWith">999</NamedParam><NamedParam name="fraction">55</NamedParam><NamedParam name="currency">USD</NamedParam></SubmitTxnVerification></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SubmitTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TxnId>B4553F1A3BC8292E</TxnId>
+    </SubmitTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 985 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2010-04-23T17:00:53.816Z</Timestamp>
+      <UTCTimestamp>1272042053</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1392 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><SubmitTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><PhoneNumber>16507934909</PhoneNumber><Language>en-us</Language><VoiceTemplateName>PaymentVerify</VoiceTemplateName><NamedParam name="amount">1234</NamedParam><NamedParam name="accountEndsWith">999</NamedParam><NamedParam name="fraction">55</NamedParam><NamedParam name="currency">USD</NamedParam></SubmitTxnVerification></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SubmitTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TxnId>727F3548B8F22352</TxnId>
+      <TxnOTP>8843</TxnOTP>
+    </SubmitTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 985 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2010-04-23T17:04:53.979Z</Timestamp>
+      <UTCTimestamp>1272042293</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1375 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><SubmitTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><PhoneNumber>16507934909</PhoneNumber><Language>en-us</Language><VoiceTemplateName>PaymentVerify</VoiceTemplateName><NamedParam name="amount">1234</NamedParam><NamedParam name="accountEndsWith">999</NamedParam><NamedParam name="fraction">55</NamedParam><NamedParam name="currency">USD</NamedParam></SubmitTxnVerification></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SubmitTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TxnId>06DD2162F7DDE77A</TxnId>
+      <TxnOTP>5357</TxnOTP>
+    </SubmitTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 984 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2010-04-23T17:11:11.657Z</Timestamp>
+      <UTCTimestamp>1272042671</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 2126 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><SubmitTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><PhoneNumber>16507934909</PhoneNumber><Language>en-us</Language><VoiceTemplateName>PaymentVerify</VoiceTemplateName><NamedParam name="accountEndsWith">1111</NamedParam><NamedParam name="amount">1000</NamedParam><NamedParam name="fraction">50</NamedParam><NamedParam name="currency">USD</NamedParam></SubmitTxnVerification></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SubmitTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TxnId>3715FE59573189A5</TxnId>
+      <TxnOTP>7050</TxnOTP>
+    </SubmitTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 969 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2010-04-23T17:12:13.584Z</Timestamp>
+      <UTCTimestamp>1272042733</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1485 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><SubmitTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><PhoneNumber>16504263520</PhoneNumber><Language>en-us</Language><VoiceTemplateName>PaymentVerify</VoiceTemplateName><NamedParam name="accountEndsWith">1111</NamedParam><NamedParam name="amount">1000</NamedParam><NamedParam name="fraction">50</NamedParam><NamedParam name="currency">USD</NamedParam></SubmitTxnVerification></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SubmitTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TxnId>F5A5209B862BF099</TxnId>
+      <TxnOTP>3839</TxnOTP>
+    </SubmitTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 984 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2010-04-23T17:37:31.110Z</Timestamp>
+      <UTCTimestamp>1272044251</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 515 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><SubmitTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><PhoneNumber>16504263520</PhoneNumber><TxnOTP>PaymentVerify</TxnOTP><Language>en-us</Language><VoiceTemplateName></VoiceTemplateName><NamedParam name="accountEndsWith">1111</NamedParam><NamedParam name="amount">1000</NamedParam><NamedParam name="fraction">50</NamedParam><NamedParam name="currency">USD</NamedParam></SubmitTxnVerification></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SubmitTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>4E00</ReasonCode>
+        <StatusMessage>Malformed request</StatusMessage>
+        <ErrorDetail>Invalid XML: string value 'PaymentVerify' does not match pattern for TxnOTPType in namespace http://www.verisign.com/2006/08/vipservice string length (0) is less than minLength facet (4) for TemplateNameType in namespace http://www.verisign.com/2006/08/vipservice</ErrorDetail>
+      </Status>
+    </SubmitTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 969 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2010-04-23T17:38:36.372Z</Timestamp>
+      <UTCTimestamp>1272044316</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 532 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><SubmitTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><PhoneNumber>16504263520</PhoneNumber><TxnOTP>PaymentVerify</TxnOTP><Language>en-us</Language><VoiceTemplateName>PaymentVerify</VoiceTemplateName><NamedParam name="accountEndsWith">1111</NamedParam><NamedParam name="amount">1000</NamedParam><NamedParam name="fraction">50</NamedParam><NamedParam name="currency">USD</NamedParam></SubmitTxnVerification></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SubmitTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>4E00</ReasonCode>
+        <StatusMessage>Malformed request</StatusMessage>
+        <ErrorDetail>Invalid XML: string value 'PaymentVerify' does not match pattern for TxnOTPType in namespace http://www.verisign.com/2006/08/vipservice</ErrorDetail>
+      </Status>
+    </SubmitTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1011 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2010-04-23T17:40:02.786Z</Timestamp>
+      <UTCTimestamp>1272044402</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 2161 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><SubmitTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><PhoneNumber>16504263520</PhoneNumber><Language>en-us</Language><VoiceTemplateName>PaymentVerify</VoiceTemplateName><NamedParam name="accountEndsWith">1111</NamedParam><NamedParam name="amount">1000</NamedParam><NamedParam name="fraction">50</NamedParam><NamedParam name="currency">USD</NamedParam></SubmitTxnVerification></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SubmitTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TxnId>6C2D3907931BFAE5</TxnId>
+      <TxnOTP>0998</TxnOTP>
+    </SubmitTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 966 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2010-04-23T17:57:00.786Z</Timestamp>
+      <UTCTimestamp>1272045420</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 2260 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><SubmitTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><PhoneNumber>16504263520</PhoneNumber><Language>en-us</Language><VoiceTemplateName>PaymentVerify</VoiceTemplateName><NamedParam name="accountEndsWith">1111</NamedParam><NamedParam name="amount">1000</NamedParam><NamedParam name="fraction">50</NamedParam><NamedParam name="currency">USD</NamedParam></SubmitTxnVerification></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SubmitTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TxnId>3D49B6F07517F456</TxnId>
+      <TxnOTP>4337</TxnOTP>
+    </SubmitTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 966 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2010-04-23T18:04:04.380Z</Timestamp>
+      <UTCTimestamp>1272045844</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1387 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><SubmitTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><PhoneNumber>16504263520</PhoneNumber><Language>en-us</Language><VoiceTemplateName>PaymentVerify</VoiceTemplateName><NamedParam name="accountEndsWith">1111</NamedParam><NamedParam name="amount">1000</NamedParam><NamedParam name="fraction">50</NamedParam><NamedParam name="currency">USD</NamedParam></SubmitTxnVerification></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SubmitTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TxnId>7652D567E48AC0C1</TxnId>
+      <TxnOTP>7137</TxnOTP>
+    </SubmitTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 982 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2010-04-23T18:13:53.784Z</Timestamp>
+      <UTCTimestamp>1272046433</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1371 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><SubmitTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><PhoneNumber>16504263520</PhoneNumber><Language>en-us</Language><VoiceTemplateName>PaymentVerify</VoiceTemplateName><NamedParam name="accountEndsWith">1111</NamedParam><NamedParam name="amount">1000</NamedParam><NamedParam name="fraction">50</NamedParam><NamedParam name="currency">USD</NamedParam></SubmitTxnVerification></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SubmitTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TxnId>4A24BA453571A142</TxnId>
+      <TxnOTP>9476</TxnOTP>
+    </SubmitTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 592 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><PollTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TxnId>4A24BA453571A142</TxnId></PollTxnVerification></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <PollTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>4E38</ReasonCode>
+        <StatusMessage>Voice call is in progress.</StatusMessage>
+      </Status>
+    </PollTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 982 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2010-04-23T18:25:48.261Z</Timestamp>
+      <UTCTimestamp>1272047148</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 2151 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><SubmitTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><PhoneNumber>16504263520</PhoneNumber><Language>en-us</Language><VoiceTemplateName>PaymentVerify</VoiceTemplateName><NamedParam name="accountEndsWith">1111</NamedParam><NamedParam name="amount">1000</NamedParam><NamedParam name="fraction">50</NamedParam><NamedParam name="currency">USD</NamedParam></SubmitTxnVerification></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SubmitTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TxnId>4CBE54388C1438A0</TxnId>
+      <TxnOTP>4769</TxnOTP>
+    </SubmitTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1309 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><PollTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TxnId>4CBE54388C1438A0</TxnId></PollTxnVerification></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <PollTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>4E38</ReasonCode>
+        <StatusMessage>Voice call is in progress.</StatusMessage>
+      </Status>
+    </PollTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 998 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2010-04-23T18:29:50.095Z</Timestamp>
+      <UTCTimestamp>1272047390</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1403 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><SubmitTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><PhoneNumber>16504263520</PhoneNumber><Language>en-us</Language><VoiceTemplateName>PaymentVerify</VoiceTemplateName><NamedParam name="accountEndsWith">1111</NamedParam><NamedParam name="amount">1000</NamedParam><NamedParam name="fraction">50</NamedParam><NamedParam name="currency">USD</NamedParam></SubmitTxnVerification></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SubmitTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TxnId>D83DBF8D1904EEAD</TxnId>
+      <TxnOTP>5935</TxnOTP>
+    </SubmitTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1325 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><PollTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TxnId>D83DBF8D1904EEAD</TxnId></PollTxnVerification></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <PollTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+    </PollTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 982 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2010-04-23T18:35:47.324Z</Timestamp>
+      <UTCTimestamp>1272047747</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 2213 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><SubmitTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><PhoneNumber>16504263520</PhoneNumber><Language>en-us</Language><VoiceTemplateName>PaymentVerify</VoiceTemplateName><NamedParam name="accountEndsWith">1111</NamedParam><NamedParam name="amount">1000</NamedParam><NamedParam name="fraction">50</NamedParam><NamedParam name="currency">USD</NamedParam></SubmitTxnVerification></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <SubmitTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TxnId>42A14E95BA11257C</TxnId>
+      <TxnOTP>0533</TxnOTP>
+    </SubmitTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1232 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><PollTxnVerification Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TxnId>42A14E95BA11257C</TxnId></PollTxnVerification></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <PollTxnVerificationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+    </PollTxnVerificationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1250 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2010-06-14T19:54:42.501Z</Timestamp>
+      <UTCTimestamp>1276545282</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 921 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSST22279668</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSST22279668</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.505Z</ExpirationDate>
+        <LastUpdate>2010-06-01T16:35:43.000Z</LastUpdate>
+        <Owner>false</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>5</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>5</Total>
+        </TokenState>
+        <GlobalFailureCount>0</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1078 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2010-06-14T20:08:41.685Z</Timestamp>
+      <UTCTimestamp>1276546121</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 860 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSST22279668</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSST22279668</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.642Z</ExpirationDate>
+        <LastUpdate>2010-06-01T16:35:43.000Z</LastUpdate>
+        <Owner>false</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>5</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>5</Total>
+        </TokenState>
+        <GlobalFailureCount>0</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1062 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2010-06-14T20:12:15.183Z</Timestamp>
+      <UTCTimestamp>1276546335</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 750 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSST22279668</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSST22279668</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.973Z</ExpirationDate>
+        <LastUpdate>2010-06-01T16:35:43.000Z</LastUpdate>
+        <Owner>false</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>5</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>5</Total>
+        </TokenState>
+        <GlobalFailureCount>0</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 2062 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-02-22T20:50:59.575Z</Timestamp>
+      <UTCTimestamp>1298407859</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1438 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSST22279668</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSST22279668</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.273Z</ExpirationDate>
+        <LastUpdate>2011-02-08T21:43:11.000Z</LastUpdate>
+        <Owner>false</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>5</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>5</Total>
+        </TokenState>
+        <GlobalFailureCount>0</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1406 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-02-22T20:54:32.440Z</Timestamp>
+      <UTCTimestamp>1298408072</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1157 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSST22279668</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSST22279668</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.478Z</ExpirationDate>
+        <LastUpdate>2011-02-08T21:43:11.000Z</LastUpdate>
+        <Owner>false</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>5</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>5</Total>
+        </TokenState>
+        <GlobalFailureCount>0</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1063 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-02-22T20:55:53.607Z</Timestamp>
+      <UTCTimestamp>1298408153</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 984 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSST22279668</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSST22279668</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.622Z</ExpirationDate>
+        <LastUpdate>2011-02-08T21:43:11.000Z</LastUpdate>
+        <Owner>false</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>5</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>5</Total>
+        </TokenState>
+        <GlobalFailureCount>0</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 2140 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-02-22T21:02:24.424Z</Timestamp>
+      <UTCTimestamp>1298408544</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1672 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSST22279668</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSST22279668</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.331Z</ExpirationDate>
+        <LastUpdate>2011-02-08T21:43:11.000Z</LastUpdate>
+        <Owner>false</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>5</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>5</Total>
+        </TokenState>
+        <GlobalFailureCount>0</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 3062 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-02-22T21:03:22.891Z</Timestamp>
+      <UTCTimestamp>1298408602</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1906 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSST22279668</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSST22279668</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.135Z</ExpirationDate>
+        <LastUpdate>2011-02-08T21:43:11.000Z</LastUpdate>
+        <Owner>false</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>5</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>5</Total>
+        </TokenState>
+        <GlobalFailureCount>0</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 3016 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-02-22T21:14:54.089Z</Timestamp>
+      <UTCTimestamp>1298409294</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1609 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSMT14325938</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSMT14325938</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.095Z</ExpirationDate>
+        <LastUpdate>2011-02-03T11:47:05.000Z</LastUpdate>
+        <Owner>true</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>3</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>3</Total>
+        </TokenState>
+        <GlobalFailureCount>0</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 2203 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-02-22T21:15:31.276Z</Timestamp>
+      <UTCTimestamp>1298409331</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1500 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSMT14325938</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSMT14325938</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.085Z</ExpirationDate>
+        <LastUpdate>2011-02-03T11:47:05.000Z</LastUpdate>
+        <Owner>true</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>3</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>3</Total>
+        </TokenState>
+        <GlobalFailureCount>0</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1719 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-02-22T21:16:07.221Z</Timestamp>
+      <UTCTimestamp>1298409367</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1344 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSMT14325938</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSMT14325938</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.728Z</ExpirationDate>
+        <LastUpdate>2011-02-03T11:47:05.000Z</LastUpdate>
+        <Owner>true</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>3</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>3</Total>
+        </TokenState>
+        <GlobalFailureCount>0</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 2172 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-02-22T21:18:32.751Z</Timestamp>
+      <UTCTimestamp>1298409512</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1688 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSMT14325938</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSMT14325938</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.751Z</ExpirationDate>
+        <LastUpdate>2011-02-03T11:47:05.000Z</LastUpdate>
+        <Owner>true</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>3</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>3</Total>
+        </TokenState>
+        <GlobalFailureCount>0</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 3531 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-03-01T00:11:16.771Z</Timestamp>
+      <UTCTimestamp>1298938276</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1812 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSMT14325938</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSMT14325938</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.721Z</ExpirationDate>
+        <LastUpdate>2011-02-03T11:47:05.000Z</LastUpdate>
+        <Owner>true</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>3</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>3</Total>
+        </TokenState>
+        <GlobalFailureCount>0</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 9000 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-03-09T03:58:02.788Z</Timestamp>
+      <UTCTimestamp>1299643082</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 2344 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSMT14325938</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSMT14325938</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.035Z</ExpirationDate>
+        <LastUpdate>2011-03-02T07:29:16.000Z</LastUpdate>
+        <Owner>true</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>3</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>3</Total>
+        </TokenState>
+        <GlobalFailureCount>1</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1218 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-05-02T21:59:04.494Z</Timestamp>
+      <UTCTimestamp>1304373544</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 672 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSMT14325938</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSMT14325938</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.253Z</ExpirationDate>
+        <LastUpdate>2011-03-02T07:29:16.000Z</LastUpdate>
+        <Owner>true</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>3</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>3</Total>
+        </TokenState>
+        <GlobalFailureCount>1</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1188 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-05-02T22:27:33.460Z</Timestamp>
+      <UTCTimestamp>1304375253</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 703 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSMT14325938</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSMT14325938</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.219Z</ExpirationDate>
+        <LastUpdate>2011-03-02T07:29:16.000Z</LastUpdate>
+        <Owner>true</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>3</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>3</Total>
+        </TokenState>
+        <GlobalFailureCount>1</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1141 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-05-02T22:31:17.771Z</Timestamp>
+      <UTCTimestamp>1304375477</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 750 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSMT14325938</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSMT14325938</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.590Z</ExpirationDate>
+        <LastUpdate>2011-03-02T07:29:16.000Z</LastUpdate>
+        <Owner>true</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>3</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>3</Total>
+        </TokenState>
+        <GlobalFailureCount>1</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 531 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><Register Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId type="Voice">16504263520</TokenId><DeliverOTP>true</DeliverOTP><VoiceDeliveryInfo><DeliveryInfoForVendor/></VoiceDeliveryInfo></Register></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <RegisterResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>4E00</ReasonCode>
+        <StatusMessage>Malformed request</StatusMessage>
+        <ErrorDetail>Invalid XML: Element not allowed: VoiceDeliveryInfo@http://www.verisign.com/2006/08/vipservice &lt;DeliveryInfoForVendor xmlns="http://www.verisign.com/2006/08/vipservice" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/></ErrorDetail>
+      </Status>
+    </RegisterResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1110 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-05-02T22:43:28.639Z</Timestamp>
+      <UTCTimestamp>1304376208</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 672 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSMT14325938</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSMT14325938</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.325Z</ExpirationDate>
+        <LastUpdate>2011-03-02T07:29:16.000Z</LastUpdate>
+        <Owner>true</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>3</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>3</Total>
+        </TokenState>
+        <GlobalFailureCount>1</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 625 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><Register Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId type="Voice">16504263520</TokenId><DeliverOTP>true</DeliverOTP><VoiceDeliveryInfo><DeliveryInfoForVendor xsi:type="ns1:AuthentifyVoiceDeliveryInfoType" xmlns:ns1="http://www.verisign.com/2006/08/vipservice"/></VoiceDeliveryInfo></Register></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <RegisterResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>4E00</ReasonCode>
+        <StatusMessage>Malformed request</StatusMessage>
+        <ErrorDetail>Invalid XML: Element not allowed: VoiceDeliveryInfo@http://www.verisign.com/2006/08/vipservice &lt;DeliveryInfoForVendor xsi:type="ns1:AuthentifyVoiceDeliveryInfoType" xmlns:ns1="http://www.verisign.com/2006/08/vipservice" xmlns="http://www.verisign.com/2006/08/vipservice" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/></ErrorDetail>
+      </Status>
+    </RegisterResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 953 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-05-02T22:44:53.315Z</Timestamp>
+      <UTCTimestamp>1304376293</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 609 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSMT14325938</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSMT14325938</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.973Z</ExpirationDate>
+        <LastUpdate>2011-03-02T07:29:16.000Z</LastUpdate>
+        <Owner>true</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>3</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>3</Total>
+        </TokenState>
+        <GlobalFailureCount>1</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 468 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><Register Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId type="Voice">16504263520</TokenId><DeliverOTP>true</DeliverOTP><VoiceDeliveryInfo><DeliveryInfoForVendor xsi:type="ns1:AuthentifyVoiceDeliveryInfoType" xmlns:ns1="http://www.verisign.com/2006/08/vipservice"/></VoiceDeliveryInfo></Register></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <RegisterResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>4E00</ReasonCode>
+        <StatusMessage>Malformed request</StatusMessage>
+        <ErrorDetail>Invalid XML: Element not allowed: VoiceDeliveryInfo@http://www.verisign.com/2006/08/vipservice &lt;DeliveryInfoForVendor xsi:type="ns1:AuthentifyVoiceDeliveryInfoType" xmlns:ns1="http://www.verisign.com/2006/08/vipservice" xmlns="http://www.verisign.com/2006/08/vipservice" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/></ErrorDetail>
+      </Status>
+    </RegisterResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 984 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-05-02T22:47:19.069Z</Timestamp>
+      <UTCTimestamp>1304376439</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 688 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSMT14325938</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSMT14325938</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.798Z</ExpirationDate>
+        <LastUpdate>2011-03-02T07:29:16.000Z</LastUpdate>
+        <Owner>true</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>3</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>3</Total>
+        </TokenState>
+        <GlobalFailureCount>1</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 469 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><Register Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId type="Voice">16504263520</TokenId><DeliverOTP>true</DeliverOTP><VoiceDeliveryInfo><DeliveryInfoForVendor xsi:type="ns1:AuthentifyVoiceDeliveryInfoType" xmlns:ns1="http://www.verisign.com/2006/08/vipservice"/></VoiceDeliveryInfo></Register></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <RegisterResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>4E00</ReasonCode>
+        <StatusMessage>Malformed request</StatusMessage>
+        <ErrorDetail>Invalid XML: Element not allowed: VoiceDeliveryInfo@http://www.verisign.com/2006/08/vipservice &lt;DeliveryInfoForVendor xsi:type="ns1:AuthentifyVoiceDeliveryInfoType" xmlns:ns1="http://www.verisign.com/2006/08/vipservice" xmlns="http://www.verisign.com/2006/08/vipservice" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/></ErrorDetail>
+      </Status>
+    </RegisterResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1000 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-05-02T22:51:01.717Z</Timestamp>
+      <UTCTimestamp>1304376661</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 672 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSMT14325938</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSMT14325938</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.411Z</ExpirationDate>
+        <LastUpdate>2011-03-02T07:29:16.000Z</LastUpdate>
+        <Owner>true</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>3</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>3</Total>
+        </TokenState>
+        <GlobalFailureCount>1</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 532 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><Register Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId type="Voice">16504263520</TokenId><DeliverOTP>true</DeliverOTP><VoiceDeliveryInfo><DeliveryInfoForVendor xsi:type="ns1:AuthentifyVoiceDeliveryInfoType" xmlns:ns1="http://www.verisign.com/2006/08/vipservice"/></VoiceDeliveryInfo></Register></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <RegisterResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>4E00</ReasonCode>
+        <StatusMessage>Malformed request</StatusMessage>
+        <ErrorDetail>Invalid XML: Element not allowed: VoiceDeliveryInfo@http://www.verisign.com/2006/08/vipservice &lt;DeliveryInfoForVendor xsi:type="ns1:AuthentifyVoiceDeliveryInfoType" xmlns:ns1="http://www.verisign.com/2006/08/vipservice" xmlns="http://www.verisign.com/2006/08/vipservice" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/></ErrorDetail>
+      </Status>
+    </RegisterResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1031 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-05-02T23:05:29.413Z</Timestamp>
+      <UTCTimestamp>1304377529</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 688 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSMT14325938</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSMT14325938</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.121Z</ExpirationDate>
+        <LastUpdate>2011-03-02T07:29:16.000Z</LastUpdate>
+        <Owner>true</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>3</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>3</Total>
+        </TokenState>
+        <GlobalFailureCount>1</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 500 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><Register Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId type="Voice">16504263520</TokenId><DeliverOTP>true</DeliverOTP><VoiceDeliveryInfo><DeliveryInfoForVendor xsi:type="ns1:AuthentifyVoiceDeliveryInfoType" xmlns:ns1="http://www.verisign.com/2006/08/vipservice"/></VoiceDeliveryInfo></Register></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <RegisterResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>4E00</ReasonCode>
+        <StatusMessage>Malformed request</StatusMessage>
+        <ErrorDetail>Invalid XML: Element not allowed: VoiceDeliveryInfo@http://www.verisign.com/2006/08/vipservice &lt;DeliveryInfoForVendor xsi:type="ns1:AuthentifyVoiceDeliveryInfoType" xmlns:ns1="http://www.verisign.com/2006/08/vipservice" xmlns="http://www.verisign.com/2006/08/vipservice" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/></ErrorDetail>
+      </Status>
+    </RegisterResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1032 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-05-02T23:05:55.728Z</Timestamp>
+      <UTCTimestamp>1304377555</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 766 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSMT14325938</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSMT14325938</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.525Z</ExpirationDate>
+        <LastUpdate>2011-03-02T07:29:16.000Z</LastUpdate>
+        <Owner>true</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>3</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>3</Total>
+        </TokenState>
+        <GlobalFailureCount>1</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1062 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-05-02T23:08:48.743Z</Timestamp>
+      <UTCTimestamp>1304377728</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 625 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSMT14325938</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSMT14325938</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.403Z</ExpirationDate>
+        <LastUpdate>2011-03-02T07:29:16.000Z</LastUpdate>
+        <Owner>true</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>3</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>3</Total>
+        </TokenState>
+        <GlobalFailureCount>1</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 438 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><Register Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId type="Voice">16504263520</TokenId><DeliverOTP>true</DeliverOTP><VoiceDeliveryInfo><DeliveryInfoForVendor xsi:type="ns1:AuthentifyVoiceDeliveryInfoType" xmlns:ns1="http://www.verisign.com/2006/08/vipservice"/></VoiceDeliveryInfo></Register></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <RegisterResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>4E00</ReasonCode>
+        <StatusMessage>Malformed request</StatusMessage>
+        <ErrorDetail>Invalid XML: Element not allowed: VoiceDeliveryInfo@http://www.verisign.com/2006/08/vipservice &lt;DeliveryInfoForVendor xsi:type="ns1:AuthentifyVoiceDeliveryInfoType" xmlns:ns1="http://www.verisign.com/2006/08/vipservice" xmlns="http://www.verisign.com/2006/08/vipservice" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/></ErrorDetail>
+      </Status>
+    </RegisterResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1046 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-05-02T23:16:09.913Z</Timestamp>
+      <UTCTimestamp>1304378169</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 718 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSMT14325938</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSMT14325938</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.642Z</ExpirationDate>
+        <LastUpdate>2011-03-02T07:29:16.000Z</LastUpdate>
+        <Owner>true</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>3</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>3</Total>
+        </TokenState>
+        <GlobalFailureCount>1</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 516 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><Register Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId type="Voice">16504263520</TokenId><DeliverOTP>true</DeliverOTP><VoiceDeliveryInfo><DeliveryInfoForVendor xsi:type="ns1:AuthentifyVoiceDeliveryInfoType" xmlns:ns1="http://www.verisign.com/2006/08/vipservice"/></VoiceDeliveryInfo></Register></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <RegisterResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>4E00</ReasonCode>
+        <StatusMessage>Malformed request</StatusMessage>
+        <ErrorDetail>Invalid XML: Element not allowed: VoiceDeliveryInfo@http://www.verisign.com/2006/08/vipservice &lt;DeliveryInfoForVendor xsi:type="ns1:AuthentifyVoiceDeliveryInfoType" xmlns:ns1="http://www.verisign.com/2006/08/vipservice" xmlns="http://www.verisign.com/2006/08/vipservice" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/></ErrorDetail>
+      </Status>
+    </RegisterResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1094 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-05-02T23:19:27.864Z</Timestamp>
+      <UTCTimestamp>1304378367</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 671 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSMT14325938</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSMT14325938</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.573Z</ExpirationDate>
+        <LastUpdate>2011-03-02T07:29:16.000Z</LastUpdate>
+        <Owner>true</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>3</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>3</Total>
+        </TokenState>
+        <GlobalFailureCount>1</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 484 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><Register Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId type="Voice">16504263520</TokenId><DeliverOTP>true</DeliverOTP><VoiceDeliveryInfo><DeliveryInfoForVendor xsi:type="ns1:AuthentifyVoiceDeliveryInfoType" xmlns:ns1="http://www.verisign.com/2006/08/vipservice"/></VoiceDeliveryInfo></Register></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <RegisterResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>4E00</ReasonCode>
+        <StatusMessage>Malformed request</StatusMessage>
+        <ErrorDetail>Invalid XML: Element not allowed: VoiceDeliveryInfo@http://www.verisign.com/2006/08/vipservice &lt;DeliveryInfoForVendor xsi:type="ns1:AuthentifyVoiceDeliveryInfoType" xmlns:ns1="http://www.verisign.com/2006/08/vipservice" xmlns="http://www.verisign.com/2006/08/vipservice" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/></ErrorDetail>
+      </Status>
+    </RegisterResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1094 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-05-02T23:32:25.797Z</Timestamp>
+      <UTCTimestamp>1304379145</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 640 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSMT14325938</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSMT14325938</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.453Z</ExpirationDate>
+        <LastUpdate>2011-03-02T07:29:16.000Z</LastUpdate>
+        <Owner>true</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>3</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>3</Total>
+        </TokenState>
+        <GlobalFailureCount>1</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 468 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><Register Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId type="Voice">16504263520</TokenId><DeliverOTP>true</DeliverOTP><VoiceDeliveryInfo><DeliveryInfoForVendor xsi:type="ns1:AuthentifyVoiceDeliveryInfoType" xmlns:ns1="http://www.verisign.com/2006/08/vipservice"/></VoiceDeliveryInfo></Register></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <RegisterResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>4E00</ReasonCode>
+        <StatusMessage>Malformed request</StatusMessage>
+        <ErrorDetail>Invalid XML: Element not allowed: VoiceDeliveryInfo@http://www.verisign.com/2006/08/vipservice &lt;DeliveryInfoForVendor xsi:type="ns1:AuthentifyVoiceDeliveryInfoType" xmlns:ns1="http://www.verisign.com/2006/08/vipservice" xmlns="http://www.verisign.com/2006/08/vipservice" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/></ErrorDetail>
+      </Status>
+    </RegisterResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1032 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-05-02T23:50:15.629Z</Timestamp>
+      <UTCTimestamp>1304380215</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 656 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSMT14325938</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSMT14325938</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.306Z</ExpirationDate>
+        <LastUpdate>2011-03-02T07:29:16.000Z</LastUpdate>
+        <Owner>true</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>3</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>3</Total>
+        </TokenState>
+        <GlobalFailureCount>1</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1000 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><Register Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId type="Voice">16504263520</TokenId><DeliverOTP>true</DeliverOTP></Register></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <RegisterResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+    </RegisterResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 1063 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetServerTime Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"/></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetServerTimeResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <Timestamp>2011-05-03T00:27:11.903Z</Timestamp>
+      <UTCTimestamp>1304382431</UTCTimestamp>
+    </GetServerTimeResponse>
+  </Body>
+</Envelope>
+=======================================================
+=======================================================
+= Elapsed: 609 milliseconds
+= In message: <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><GetTokenInformation Id="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice"><TokenId>VSMT14325938</TokenId></GetTokenInformation></soapenv:Body></soapenv:Envelope>
+= Out message: <?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetTokenInformationResponse RequestId="abcd1234" Version="2.0" xmlns="http://www.verisign.com/2006/08/vipservice">
+      <Status>
+        <ReasonCode>0000</ReasonCode>
+        <StatusMessage>Success</StatusMessage>
+      </Status>
+      <TokenInformation>
+        <TokenId>VSMT14325938</TokenId>
+        <TokenKind>SOFTWARE</TokenKind>
+        <Adapter>OATH_TIME</Adapter>
+        <TokenStatus>ENABLED</TokenStatus>
+        <ExpirationDate>2038-01-01T00:00:00.619Z</ExpirationDate>
+        <LastUpdate>2011-03-02T07:29:16.000Z</LastUpdate>
+        <Owner>true</Owner>
+      </TokenInformation>
+      <NetworkIntelligence>
+        <NumberOfParties>3</NumberOfParties>
+        <TokenState type="ENABLED">
+          <Total>3</Total>
+        </TokenState>
+        <GlobalFailureCount>1</GlobalFailureCount>
+      </NetworkIntelligence>
+    </GetTokenInformationResponse>
+  </Body>
+</Envelope>
+=======================================================
